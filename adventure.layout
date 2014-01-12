@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="addons\ofxXmlSettings\src\ofxXmlSettings.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="15341" topLine="523" />
+	</File>
+	<File name="addons\ofxXmlSettings\src\ofxXmlSettings.h" open="0" top="0" tabpos="9">
+		<Cursor position="6129" topLine="124" />
+	</File>
+	<File name="src\Array2D.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2996" topLine="107" />
+	</File>
+	<File name="src\AssetsPool.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="123" topLine="0" />
+	</File>
+	<File name="src\AssetsPool.h" open="0" top="0" tabpos="2">
+		<Cursor position="69" topLine="0" />
+	</File>
+	<File name="src\Behaviour.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="7763" topLine="150" />
+	</File>
+	<File name="src\Behaviour.h" open="0" top="0" tabpos="7">
+		<Cursor position="1073" topLine="11" />
+	</File>
+	<File name="src\Descriptor.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="375" topLine="0" />
+	</File>
+	<File name="src\Descriptor.h" open="0" top="0" tabpos="9">
+		<Cursor position="195" topLine="0" />
+	</File>
+	<File name="src\Global.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="772" topLine="8" />
+	</File>
+	<File name="src\Global.h" open="0" top="0" tabpos="4">
+		<Cursor position="420" topLine="4" />
+	</File>
+	<File name="src\Scene.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="858" topLine="25" />
+	</File>
+	<File name="src\Scene.h" open="0" top="0" tabpos="6">
+		<Cursor position="248" topLine="0" />
+	</File>
+	<File name="src\Utils.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1939" topLine="63" />
+	</File>
+	<File name="src\Utils.h" open="0" top="0" tabpos="0">
+		<Cursor position="506" topLine="0" />
+	</File>
+	<File name="src\Variable.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="25" topLine="0" />
+	</File>
+	<File name="src\Variable.h" open="0" top="0" tabpos="0">
+		<Cursor position="251" topLine="0" />
+	</File>
+	<File name="src\WorldObject.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="16456" topLine="508" />
+	</File>
+	<File name="src\WorldObject.h" open="0" top="0" tabpos="8">
+		<Cursor position="1449" topLine="45" />
+	</File>
+	<File name="src\WorldObjectsManager.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="11456" topLine="269" />
+	</File>
+	<File name="src\WorldObjectsManager.h" open="0" top="0" tabpos="10">
+		<Cursor position="766" topLine="11" />
+	</File>
+	<File name="src\XmlLoader.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="3340" topLine="139" />
+	</File>
+	<File name="src\XmlLoader.h" open="0" top="0" tabpos="6">
+		<Cursor position="529" topLine="8" />
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="260" topLine="0" />
+	</File>
+	<File name="src\testApp.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="3293" topLine="69" />
+	</File>
+	<File name="src\testApp.h" open="0" top="0" tabpos="4">
+		<Cursor position="211" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

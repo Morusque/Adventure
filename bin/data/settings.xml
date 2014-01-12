@@ -1,0 +1,1107 @@
+<settings>
+	<global txtMargH="100" txtMargW="50" nbSfx="12" ratio="2" />
+	<world width="8" height="8">
+		<scene x="0" y="0" bgPicture="underg00.png" sndLoop="loop03.ogg" name="the sewers">
+			<border direction="up"    stuck="true" />
+			<border direction="right" linkX="2" linkY="0" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  linkX="0" linkY="2" />
+		</scene>
+		<scene x="1" y="0" bgPicture="barInt00.png" sndLoop="loop13.ogg" name="the bar">
+			<border direction="up"    stuck="true" hide="true" />
+			<border direction="right" stuck="true" hide="true" />
+			<border direction="down"  stuck="true" hide="true" />
+			<border direction="left"  stuck="true" hide="true" />
+		</scene>
+		<scene x="2" y="0" bgPicture="underg02.png" sndLoop="loop03.ogg" name="the sewers">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="left"  linkX="0" linkY="0" />
+		</scene>
+		<scene x="3" y="0" bgPicture="houseInt01.png" sndLoop="loop02.ogg" name="house interior">
+			<border direction="up"    stuck="true" />
+			<border direction="left"  stuck="true" />
+			<border direction="right" stuck="true" />						
+		</scene>
+		<scene x="4" y="0" bgPicture="deadEnd00.png" sndLoop="loop01.ogg" name="the school">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  linkX="4" linkY="2" />
+			<border direction="right" stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="5" y="0" bgPicture="schoolInt00.png" sndLoop="loop08.ogg" name="school corridor">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="6" y="0" bgPicture="schoolInt03.png" sndLoop="loop08.ogg" name="school corridor">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="7" y="0" bgPicture="schoolInt01.png" sndLoop="loop08.ogg" name="school corridor">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="0" y="1" bgPicture="underg04.png" sndLoop="loop03.ogg" name="the sewers">
+			<border direction="up"    stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="1" y="1" bgPicture="underg01.png" sndLoop="loop03.ogg" name="the sewers">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="2" y="1" bgPicture="underg03.png" sndLoop="loop03.ogg" name="the sewers">
+			<border direction="down"  stuck="true" />
+			<border direction="right" stuck="true" />
+		</scene>
+		<scene x="3" y="1" bgPicture="houseInt00.png" sndLoop="loop02.ogg" name="house interior">
+			<border direction="left"  stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="right" stuck="true" />						
+		</scene>
+		<scene x="4" y="1" bgPicture="vortex00.png" sndLoop="loop01.ogg" name="temporary infinity">
+			<border direction="up"    linkX="3" linkY="0" hide="true" />
+			<border direction="right" linkX="3" linkY="0" hide="true" />
+			<border direction="down"  linkX="3" linkY="0" hide="true" />
+			<border direction="left"  linkX="3" linkY="0" hide="true" />
+		</scene>
+		<scene x="5" y="1" bgPicture="castle02.png" sndLoop="loop07.ogg" name="castle balcony">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="6" y="1" bgPicture="castle01.png" sndLoop="loop07.ogg" name="castle library">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="7" y="1" bgPicture="castle00.png" sndLoop="loop07.ogg" name="castle hall">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+		</scene>
+		<scene x="0" y="2" bgPicture="underg05.png" sndLoop="loop03.ogg" name="the sewers">
+			<border direction="right" linkX="0" linkY="0" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  stuck="true" />			
+		</scene>
+		<scene x="1" y="2" bgPicture="planetGround00.png" sndLoop="loop12.ogg" name="strange planet">
+			<border direction="up"    linkX="2" linkY="5" hide="true" />
+			<border direction="down"  linkX="2" linkY="5" hide="true" />
+			<border direction="left"  linkX="2" linkY="5" hide="true" />
+		</scene>
+		<scene x="2" y="2" bgPicture="planetGround01.png" sndLoop="loop12.ogg" name="strange planet">
+			<border direction="up"    linkX="2" linkY="5" hide="true" />
+			<border direction="right" linkX="2" linkY="5" hide="true" />
+			<border direction="down"  linkX="2" linkY="5" hide="true" />
+		</scene>
+		<scene x="3" y="2" bgPicture="deadEnd01.png" sndLoop="loop10.ogg" name="garden">
+			<border direction="up"    stuck="true" />
+			<border direction="left"  stuck="true" />			
+		</scene>
+		<scene x="4" y="2" bgPicture="street11.png" sndLoop="loop01.ogg" name="the street">
+			<border direction="up"    linkX="4" linkY="0" />
+			<border direction="right" linkX="7" linkY="2" />
+			<border direction="down"  linkX="4" linkY="4" />
+		</scene>
+		<scene x="5" y="2" bgPicture="street00.png" sndLoop="loop01.ogg" name="the street">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="6" y="2" bgPicture="street01.png" sndLoop="loop01.ogg" name="the street">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="7" y="2" bgPicture="pavement01.png" sndLoop="loop10.ogg" name="castle entrance">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  linkX="4" linkY="2" />
+		</scene>
+		<scene x="0" y="3" bgPicture="road01.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  linkX="3" linkY="7" />
+		</scene>
+		<scene x="1" y="3" bgPicture="road07.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+		</scene>
+		<scene x="2" y="3" bgPicture="dogHouseInt00.png" sndLoop="loop10.ogg" name="dog house">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="3" y="3" bgPicture="garden00.png" sndLoop="loop10.ogg" name="a garden">
+			<border direction="right" stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="4" y="3" bgPicture="street05.png" sndLoop="loop01.ogg" name="the street">
+			<border direction="right" stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="5" y="3" bgPicture="schoolInt02.png" sndLoop="loop08.ogg" name="math room">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="6" y="3" bgPicture="schoolInt02.png" sndLoop="loop08.ogg" name="geography room">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="7" y="3" bgPicture="forest03.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="up"    linkX="5" linkY="7" />
+			<border direction="right" stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="0" y="4" bgPicture="intro00.png" sndLoop="loop11.ogg" name="Hello">
+			<border direction="up"    linkX="7" linkY="7" hide="true" />
+			<border direction="right" linkX="7" linkY="7" hide="true" />
+			<border direction="down"  linkX="7" linkY="7" hide="true" />
+			<border direction="left"  linkX="7" linkY="7" hide="true" />
+		</scene>
+		<scene x="1" y="4" bgPicture="road06.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="left"  stuck="true" />
+		</scene>	
+		<scene x="2" y="4" bgPicture="pavement00.png" sndLoop="loop10.ogg" name="pavement">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="3" y="4" bgPicture="easter00.png" sndLoop="loop11.ogg" name="Credits">
+			<border direction="up"    linkX="2" linkY="5" hide="true" />
+			<border direction="right" linkX="2" linkY="5" hide="true" />
+			<border direction="down"  linkX="2" linkY="5" hide="true" />
+			<border direction="left"  linkX="2" linkY="5" hide="true" />
+		</scene>
+		<scene x="4" y="4" bgPicture="street02.png" sndLoop="loop01.ogg" name="the street">
+			<border direction="down"  stuck="true" />
+			<border direction="right" linkX="6" linkY="4" />
+			<border direction="up"    linkX="4" linkY="2" />
+			<border direction="left"  linkX="6" linkY="4" />
+		</scene>
+		<scene x="5" y="4" bgPicture="street00.png" sndLoop="loop01.ogg" name="the street">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="6" y="4" bgPicture="street03.png" sndLoop="loop01.ogg" name="the street">
+			<border direction="up"    stuck="true" />
+			<border direction="right" linkX="4" linkY="4" />
+			<border direction="left"  linkX="4" linkY="4" />
+		</scene>
+		<scene x="7" y="4" bgPicture="street01.png" sndLoop="loop01.ogg" name="the street">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="right" linkX="3" />
+		</scene>
+		<scene x="0" y="5" bgPicture="road10.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="up"    stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="1" y="5" bgPicture="road08.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="down"  stuck="true" />
+			<border direction="right" stuck="true" />
+		</scene>
+		<scene x="2" y="5" bgPicture="night00.png" sndLoop="loop05.ogg" name="the night">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="3" y="5" bgPicture="zoo00.png" sndLoop="loop04.ogg" name="the zoo">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="left"  stuck="true" />		
+		</scene>
+		<scene x="4" y="5" bgPicture="forest00.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="left"  linkX="7" linkY="6" />
+			<border direction="up"    linkX="7" linkY="7" />
+		</scene>
+		<scene x="5" y="5" bgPicture="forest00.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="up"    linkX="4" linkY="7" />
+		</scene>
+		<scene x="6" y="5" bgPicture="forest01.png" sndLoop="loop06.ogg" name="the forest">
+		</scene>
+		<scene x="7" y="5" bgPicture="forest00.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="right" linkX="4" linkY="7" />
+			<border direction="up"    linkX="6" linkY="7" />
+		</scene>
+		<scene x="0" y="6" bgPicture="road04.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="left"  stuck="true" />
+			<border direction="right" stuck="true" />
+		</scene>
+		<scene x="1" y="6" bgPicture="roadEnd00.png" sndLoop="loop09.ogg" name="lottery">
+			<border direction="up"    stuck="true" />
+			<border direction="right" stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="2" y="6" bgPicture="templeInt00.png" sndLoop="loop05.ogg" name="the temple">
+			<border direction="right" stuck="true" />
+			<border direction="down"  stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="3" y="6" bgPicture="zooEnt00.png" sndLoop="loop04.ogg" name="zoo entrance">
+			<border direction="right" stuck="true" />
+			<border direction="left"  stuck="true" />
+		</scene>
+		<scene x="4" y="6" bgPicture="forest00.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="left"  linkX="7" linkY="7" />
+		</scene>
+		<scene x="5" y="6" bgPicture="forest04.png" sndLoop="loop06.ogg" name="the forest">
+		</scene>
+		<scene x="6" y="6" bgPicture="forest05.png" sndLoop="loop06.ogg" name="the forest">
+		</scene>
+		<scene x="7" y="6" bgPicture="forest00.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="right" linkX="4" linkY="5" />
+		</scene>
+		<scene x="0" y="7" bgPicture="road09.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="left"  stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="1" y="7" bgPicture="road02.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="2" y="7" bgPicture="road11.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="up"    stuck="true" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="3" y="7" bgPicture="road02.png" sndLoop="loop00.ogg" name="the street">
+			<border direction="right" linkX="0" linkY="3" />
+			<border direction="down"  stuck="true" />
+		</scene>
+		<scene x="4" y="7" bgPicture="forest00.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="left"  linkX="7" linkY="5" />
+			<border direction="down"  linkX="5" linkY="5" />
+		</scene>
+		<scene x="5" y="7" bgPicture="forest02.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="down"  linkX="7" linkY="3" />
+		</scene>
+		<scene x="6" y="7" bgPicture="forest00.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="down"  linkX="7" linkY="5" />
+		</scene>
+		<scene x="7" y="7" bgPicture="forest00.png" sndLoop="loop06.ogg" name="the forest">
+			<border direction="right" linkX="4" linkY="6" />
+			<border direction="down"  linkX="4" linkY="5" />
+		</scene>
+	</world>
+	<player playerSpeed="10.0">
+	</player>
+	<objects>
+		<object class="player" name="player" >
+			<object sceneX="0" sceneY="4" posX="250" posY="200" picture="sprite00.png" id="player" pool="player" logic="1" />
+			<object picture="sprite01.png" id="player dog" pool="pool" logic="1" />
+			<object picture="sprite02.png" id="player monk" pool="pool" logic="1" />
+		</object>
+		<object class="interactive" name="that thing" logic="1" >
+			<object class="carriable" >
+				<object class="tree" name="tree">
+					<object picture="tree00.png" sceneX="3" sceneY="5" posX="100" posY="100" pool="init" />
+					<object picture="tree00.png" pool="pool" />
+					<object picture="tree01.png" pool="pool" />
+				</object>
+				<object class="money" name="money" picture="money00.png" >
+					<object id="money0" sceneX="1" sceneY="3" posX="400" posY="300" pool="init" />
+					<object id="money1" sceneX="0" sceneY="1" posX="400" posY="300" pool="pool" />
+					<object id="money2" sceneX="1" sceneY="1" posX="400" posY="300" pool="pool" />
+					<object id="money3" sceneX="2" sceneY="1" posX="400" posY="300" pool="pool" />
+					<object id="money4" sceneX="0" sceneY="2" posX="400" posY="300" pool="pool" />
+				</object>
+				<object class="door" name="door" sceneX="0" sceneY="0" posX="0" posY="20" >
+					<object picture="door00.png" pool="pool" />
+					<object picture="door01.png" pool="pool" />
+					<object picture="door02.png" pool="pool" />
+					<object picture="door03.png" pool="pool" />
+				</object>
+				<object class="character" >
+					<object class="standing" >
+						<object class="lotoGuy" id="lotoGuy" name="lottery guy" sceneX="1" sceneY="6" posX="400" posY="150" picture="lotoGuy00.png" pool="init" />
+						<object class="castle seller" >
+							<object id="knight" name="knight" sceneX="7" sceneY="2" posX="500" posY="400" picture="knight00.png" pool="init" />
+							<object id="horse" name="horse" sceneX="7" sceneY="2" posX="700" posY="300" picture="horse00.png" pool="init" />
+						</object>
+						<object class="alien" id="alien" name="alien" sceneX="2" sceneY="2" posX="450" posY="300" picture="alien00.png" pool="init" />
+						<object class="useless">
+							<object name="Antoine" id="Antoine" sceneX="4" sceneY="1" posX="300" posY="300" picture="guy13.png" pool="init" />
+							<object name="Julien" id="Julien" sceneX="4" sceneY="1" posX="400" posY="400" picture="guy14.png" pool="init" />
+							<object name="Freeka" id="Freeka" sceneX="4" sceneY="1" posX="500" posY="250" picture="guy15.png" pool="init" />
+						</object>
+					</object>
+					<object class="moving" >
+						<object class="random walk" >
+							<object class="customer" id="customer" name="customer" sceneX="1" sceneY="0" posX="450" posY="300" picture="customer00.png" pool="init" />
+						</object>
+						<object class="useless">
+							<object class="random walk" >
+								<object name="Guillaume" id="Guillaume" sceneX="5" sceneY="3" posX="400" posY="300" picture="guy01.png" pool="init" />
+								<object name="Laurent" id="Laurent" sceneX="1" sceneY="1" posX="400" posY="300" picture="guy02.png" pool="init" />
+								<object name="Abdullah" id="Abdullah" sceneX="1" sceneY="3" posX="400" posY="300" picture="guy03.png" pool="init" />
+								<object name="Anne" id="Anne" sceneX="3" sceneY="1" posX="400" posY="300" picture="guy04.png" pool="init" />
+								<object name="Pierre" id="Pierre" sceneX="2" sceneY="6" posX="400" posY="300" picture="guy05.png" pool="init" />
+								<object name="Alexis" id="Alexis" sceneX="4" sceneY="2" posX="400" posY="300" picture="guy06.png" pool="init" />
+								<object name="Monia" id="Monia" sceneX="1" sceneY="6" posX="400" posY="300" picture="guy07.png" pool="init" />
+								<object name="Nicklas" id="Nicklas" sceneX="4" sceneY="5" posX="400" posY="300" picture="guy08.png" pool="init" />
+								<object name="William" id="William" sceneX="5" sceneY="0" posX="400" posY="300" picture="guy09.png" pool="init" />
+								<object name="Jean-Pierre" id="Jean-Pierre" sceneX="6" sceneY="3" posX="400" posY="300" picture="guy10.png" pool="init" />
+								<object name="Florent" id="Florent" sceneX="5" sceneY="1" posX="400" posY="300" picture="guy11.png" pool="init" />
+								<object name="Daniel" id="Daniel" sceneX="0" sceneY="5" posX="400" posY="300" picture="guy12.png" pool="init" />
+								<object name="plumber" id="plumber" picture="plumber00.png" pool="pool" />
+								<object name="Georges" id="Georges" sceneX="3" sceneY="1" posX="400" posY="300" picture="guy16.png" pool="init" />
+							</object>
+							<object class="alligator walk" >
+								<object name="alligator" id="alligator" sceneX="2" sceneY="1" posX="400" posY="500" picture="alligator00.png" pool="init" />
+							</object>
+							<object class="bird walk" >
+								<object name="bird" sceneX="4" sceneY="6" posX="400" posY="300" picture="bird00.png" pool="init" />
+								<object name="bird" sceneX="5" sceneY="6" posX="400" posY="300" picture="bird00.png" pool="init" />
+								<object name="bird" sceneX="6" sceneY="6" posX="400" posY="300" picture="bird00.png" pool="init" />
+								<object name="bird" sceneX="7" sceneY="6" posX="400" posY="300" picture="bird00.png" pool="init" />
+							</object>
+						</object>
+						<object class="dog walk" >
+							<object name="dog" id="dog" sceneX="2" sceneY="3" posX="400" posY="300" picture="dog00.png" pool="init" />
+						</object>
+					</object>
+				</object>
+				<object class="item" >
+					<object class="globe" name="earth globe" id="globe" sceneX="6" sceneY="3" posX="300" posY="340" picture="globe00.png" pool="init" />
+					<object class="math" name="math" sceneX="5" sceneY="3" posX="300" posY="340" picture="math00.png" pool="init" />
+					<object class="hatchet" name="hatchet" sceneX="7" sceneY="3" posX="400" posY="300" picture="hatchet00.png" pool="init" />
+					<object class="lottery ticket" >
+						<object id="bad lottery ticket" name="lottery ticket" picture="ticket00.png" pool="pool" />
+						<object id="good lottery ticket" name="lottery ticket" picture="ticket01.png" pool="pool" />
+					</object>
+					<object class="big money" id="big money" name="a lot of money" picture="bill00.png" pool="pool" />
+					<object class="book">
+						<object id="book of famous plumbers" name="book of famous plumbers" sceneX="6" sceneY="1" posX="200" posY="300" picture="book00.png" pool="init" />
+						<object id="book of sugar free drinks" name="book of sugar free drinks" sceneX="6" sceneY="1" posX="400" posY="300" picture="book01.png" pool="init" />
+						<object id="book of spiritual enlightment" name="book of spiritual enlightment" sceneX="6" sceneY="1" posX="600" posY="300" picture="book02.png" pool="init" />
+					</object>
+				</object>
+				<object id="for sale" name="for sale" sceneX="7" sceneY="2" posX="250" posY="150" picture="forSale00.png" pool="init" />
+				<object id="sugar free drink" name="sugar free drink" picture="drink00.png" pool="pool" />
+				<object class="pipe" id="pipe out" name="pipe" sceneX="3" sceneY="7" posX="400" posY="400" picture="pipe01.png" pool="init" />
+				<object id="wrench" name="wrench" sceneX="4" sceneY="4" posX="450" posY="120" picture="wrench00.png" pool="init" />
+				<object id="umbrella" name="umbrella" sceneX="3" sceneY="1" posX="650" posY="350" picture="umbrella00.png" pool="init" />
+				<object class="table">
+					<object id="table00" name="table" sceneX="1" sceneY="0" posX="200" posY="200" picture="table00.png" pool="init" />
+					<object id="table00" name="table" sceneX="1" sceneY="0" posX="400" posY="300" picture="table00.png" pool="init" />
+				</object>
+				<object id="flute" name="flute" picture="flute00.png" sceneX="4" sceneY="7" posX="400" posY="250" pool="pool" />
+			</object>
+			<object class="static" >
+				<object id="flute rock" name="rock" sceneX="4" sceneY="7" posX="400" posY="300" picture="fluteRock00.png" pool="init" />
+				<object id="rock" name="rock" picture="rock00.png" pool="pool" />
+				<object class="pipe" id="pipe in" name="pipe" sceneX="3" sceneY="0" posX="400" posY="300" picture="pipe00.png" pool="init" />	
+				<object id="fountain" picture="fountain00.png" sceneX="0" sceneY="5" posX="200" posY="150" name="fountain" pool="init" />
+				<object class="sewer cap" name="sewer cap" >
+					<object picture="sewerDoor04.png" id="closed sewer cap A1" sceneX="4" sceneY="2" posX="400" posY="300" pool="init" />
+					<object picture="sewerDoor00.png" id="sewer cap A1" pool="pool" />
+					<object picture="sewerDoor01.png" id="sewer cap A2" sceneX="0" sceneY="0" posX="200" posY="30"  pool="init" />
+					<object picture="sewerDoor02.png" id="sewer cap B1" sceneX="0" sceneY="3" posX="400" posY="500" pool="init" />
+					<object picture="sewerDoor03.png" id="sewer cap B2" sceneX="1" sceneY="1" posX="200" posY="30"  pool="init" />
+				</object>
+				<object class="static door" name="door" >
+					<object picture="staticDoor00.png" id="dog house int door" sceneX="2" sceneY="3" posX="600" posY="270"  pool="init" name="to exterior" />
+					<object picture="staticDoor00.png" id="house int door"     sceneX="3" sceneY="1" posX="400" posY="450"  pool="init" name="to exterior" />
+					<object picture="staticDoor01.png" id="school int door"    sceneX="5" sceneY="0" posX="100" posY="290"  pool="init" name="to exterior" />
+					<object picture="staticDoor01.png" id="school door 1"      sceneX="6" sceneY="0" posX="470" posY="100"  pool="init" name="to math room" />
+					<object picture="staticDoor01.png" id="school door 2"      sceneX="7" sceneY="0" posX="400" posY="100"  pool="init" name="to geography room" />
+					<object picture="staticDoor01.png" id="math int door"      sceneX="5" sceneY="3" posX="500" posY="100"  pool="init" name="to school corridor" />
+					<object picture="staticDoor01.png" id="geo int door"       sceneX="6" sceneY="3" posX="500" posY="100"  pool="init" name="to school corridor" />
+					<object picture="staticDoor00.png" id="temple int door"    sceneX="2" sceneY="6" posX="300" posY="490"  pool="init" name="to exterior" />
+					<object picture="staticDoor00.png" id="bar int door"       sceneX="1" sceneY="0" posX="300" posY="490"  pool="init" name="to exterior" />
+				</object>
+				<object id="castle door" picture="castleDoor00.png" sceneX="7" sceneY="2" posX="450" posY="0" name="castle door" pool="init" />
+				<object class="dead character">
+					<object id="corpse" name="corpse" picture="corpse00.png" pool="pool" />
+				</object>
+				<object class="character">
+					<object id="monk" name="monk" sceneX="2" sceneY="6" posX="400" posY="300" picture="monk00.png" pool="init" />
+					<object id="Robert" name="Robert" sceneX="3" sceneY="5" posX="600" posY="200" picture="guy00.png" pool="init" />					
+					<object class="moving" >
+						<object class="alligator walk" >
+							<object name="goat" id="goat" sceneX="4" sceneY="6" posX="400" posY="500" picture="goat00.png" pool="init" />
+						</object>
+						<object class="clue walk" >
+							<object name="clue guy" id="clue guy" sceneX="6" sceneY="6" posX="400" posY="300" picture="clueGuy00.png" pool="init" />
+						</object>
+					</object>
+				</object>
+				<object class="cage">
+					<object id="zoo cage" name="cage" picture="cage00.png" sceneX="3" sceneY="5" posX="400" posY="400" pool="init" />
+				</object>
+				<object class="star" id="star A" name="star" picture="star00.png" sceneX="2" sceneY="5" posX="700" posY="100" pool="init" />
+				<object class="star" id="star B" name="star" picture="star00.png" sceneX="2" sceneY="5" posX="500" posY="500" pool="init" />
+				<object class="star" id="star C" name="star" picture="star00.png" sceneX="2" sceneY="5" posX="400" posY="200" pool="init" />
+				<object class="star" id="star D" name="star" picture="star00.png" sceneX="2" sceneY="5" posX="350" posY="400" pool="init" />
+				<object class="star" id="star E" name="star" picture="star00.png" sceneX="2" sceneY="5" posX="100" posY="300" pool="init" />
+				<object class="star gate" id="star gate" name="star gate" picture="starGate00.png" pool="pool" />
+				<object class="planet" id="planet" name="planet" picture="planet00.png" pool="pool" />
+			</object>
+			<object class="grabbable" name="that thing" >
+				<object class="car" name="car" >
+					<object class="going right" >
+						<object sceneX="4" sceneY="4" posX="400" posY="150" picture="car00.png" pool="init" />
+					</object>
+					<object class="going left" >
+						<object sceneX="4" sceneY="4" posX="400" posY="450" picture="car01.png" pool="init" />
+					</object>
+					<object class="going path A" >
+						<object sceneX="0" sceneY="7" posX="400" posY="200" picture="car02.png" pool="init" />
+					</object>
+				</object>
+			</object> 
+			<object class="custom" >
+				<object class="building">
+					<object class="add door">
+						<object id="house" name="house" picture="house00.png" sceneX="3" sceneY="3" posX="400" posY="200" pool="init" />
+						<object id="dog house" name="dog house" picture="dogHouse00.png" sceneX="3" sceneY="2" posX="200" posY="400" pool="init" />
+						<object id="school" name="school" picture="school00.png" sceneX="4" sceneY="0" posX="400" posY="200" pool="init" />
+						<object id="temple" name="temple" picture="temple00.png" sceneX="2" sceneY="4" posX="450" posY="170" pool="init" />
+						<object id="bar" name="bar" picture="bar00.png" sceneX="2" sceneY="7" posX="420" posY="220" pool="init" />
+					</object>
+				</object>
+			</object>
+		</object>
+		<object class="ornament" logic="0" >
+			<object class="grass">
+				<object sceneX="4" sceneY="4" posX="400" posY="150" >
+					<object picture="grass00.png" pool="pool" />
+					<object picture="grass01.png" pool="pool" />
+					<object picture="grass02.png" pool="pool" />
+				</object>
+			</object>
+			<object class="streetlight" picture="streetlight00.png" >
+				<object sceneX="4" sceneY="4" posX="100" posY="480" pool="init" />
+				<object sceneX="4" sceneY="4" posX="300" posY="480" pool="init" />
+				<object sceneX="4" sceneY="4" posX="500" posY="480" pool="init" />
+				<object sceneX="4" sceneY="4" posX="700" posY="480" pool="init" />
+				<object sceneX="5" sceneY="4" posX="100" posY="480" pool="init" />
+				<object sceneX="5" sceneY="4" posX="300" posY="480" pool="init" />
+				<object sceneX="5" sceneY="4" posX="500" posY="480" pool="init" />
+				<object sceneX="5" sceneY="4" posX="700" posY="480" pool="init" />
+				<object sceneX="6" sceneY="4" posX="100" posY="480" pool="init" />
+				<object sceneX="6" sceneY="4" posX="700" posY="480" pool="init" />
+				<object sceneX="7" sceneY="4" posX="100" posY="480" pool="init" />
+				<object sceneX="7" sceneY="4" posX="300" posY="480" pool="init" />
+				<object sceneX="7" sceneY="4" posX="500" posY="480" pool="init" />
+				<object sceneX="7" sceneY="4" posX="700" posY="480" pool="init" />
+				<object sceneX="1" sceneY="5" posX="500" posY="450" pool="init" />
+				<object sceneX="0" sceneY="7" posX="300" posY="450" pool="init" />
+			</object>
+			<object class="board" sceneX="5" sceneY="3" posX="300" posY="300" picture="board00.png" pool="init" />
+			<object class="zoo gate" sceneX="3" sceneY="6" posX="400" posY="320" picture="gate00.png" pool="init" />
+		</object>
+	</objects>
+	<behaviours>
+		<behaviour type="clock:1" obj="class:player" carry="#:null" close="~:0;class:interactive;class:static" >
+			<action action="message:1" target="#:upper" params="txt:#close" />
+		</behaviour>
+		<behaviour type="clock:1" obj="class:player" carry="#:null" close="class:carriable" >
+			<action action="message:1" target="#:upper" params="txt:? > #close" />
+		</behaviour>
+		<behaviour type="clock:1" obj="class:player" carry="#:null" close="class:grabbable" >
+			<action action="message:1" target="#:upper" params="txt:? > #close" />
+		</behaviour>
+		<behaviour type="clock:1" obj="class:player" carry="#:null" close="#:null" >
+			<action action="message:1" target="#:upper" params="txt:" />
+		</behaviour>
+		<behaviour type="clock:1" obj="class:player" carry="#:something" close="class:interactive" >
+			<action action="message:1" target="#:upper" params="txt:? > #carry > #close" />
+		</behaviour>
+		<behaviour type="clock:1" obj="class:player" carry="#:something" close="#:null" >
+			<action action="message:1" target="#:upper" params="txt:! > #carry" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:null" close="class:carriable" >
+			<action action="carry:1" target="#:this" params="#:close;maxPZ:100" />
+			<action action="sound:1" target="index:0" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:carriable" close="!class:interactive" >
+			<action action="release:1" target="#:this" params="#:unused;maxPZ:0" />
+			<action action="sound:1" target="index:1" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:hatchet" close="class:tree" >
+			<action action="var:1" target="name:cut tree" params="add:1" />
+			<action action="replace:1" target="#:close" params="poolRndClass:door" />
+			<action action="message:1" target="#:lower" params="txt:You cut down the tree and build a door." />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:hatchet" close="class:tree" var="~:0;cut tree:==8;achievement 1 done:==0" >
+			<action action="var:1" target="name:achievement 1 done" params="set:1" />
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ lumberjack." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:door" close="class:star" var="star gates created:==0" >
+			<action action="var:1" target="name:doors added" params="add:1" />
+			<action action="var:1" target="name:star gates created" params="add:1" />
+			<action action="replace:1" target="#:close" params="poolId:star gate" />
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="sound:1" target="index:3" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:globe" close="class:star" >
+			<action action="replace:1" target="#:close" params="poolId:planet" />
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="message:1" target="#:lower" params="txt:You've just created a planet." />
+			<action action="sound:1" target="index:3" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:planet" >
+			<action action="moveTo:1" target="#:this" params="sX:1;sY:2;pX:300;pY:300" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>		
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:star gate" >
+			<action action="moveTo:1" target="#:this" params="sX:3;sY:4;pX:300;pY:300" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:star gate" var="achievement 13 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 13 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ space traveller." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:money" close="~:1;id:monk;id:Robert" >
+			<action action="message:1" target="#:close" params="txt:No thanks, I'm against it.;counter:100" />
+			<action action="sound:1" target="index:7" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:money" close="~:0;class:character;class:useless" >
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="add:1" target="#:null" params="poolRndClass:money" />
+			<action action="message:1" target="#:close" params="txt:Thank you.;counter:100" />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:big money" close="~:0;class:character;class:useless" >
+			<action action="message:1" target="#:close" params="txt:That's too much money for me.;counter:100" />
+			<action action="sound:1" target="index:7" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:money" close="id:lotoGuy" >
+			<action action="replace:1" target="#:carry" params="poolId:bad lottery ticket" />
+			<action action="add:1" target="#:null" params="poolRndClass:money" />
+			<action action="message:1" target="#:close" params="txt:Here is a lottery ticket.;counter:100" />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of spiritual enlightment" close="~:0;class:character;!class:useless;!class:dog" >
+			<action action="message:1" target="#:close" params="txt:I don't want to be spiritually enlighted.;counter:100" />
+			<action action="sound:1" target="index:7" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of spiritual enlightment" close="~:0;class:character;class:useless" >
+			<action action="message:1" target="#:close" params="txt:I don't want to be spiritually enlighted.;counter:100" />
+			<action action="sound:1" target="index:7" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of famous plumbers" close="~:0;class:character;!class:useless" >
+			<action action="message:1" target="#:close" params="txt:I have no interest in plumbery.;counter:100" />
+			<action action="sound:1" target="index:7" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of famous plumbers" close="~:0;class:character;class:useless" >
+			<action action="var:1" target="name:books given" params="add:1" />
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="replace:1" target="#:close" params="poolId:plumber" />
+			<action action="message:1" target="#:close" params="txt:Thanks. I'm so proud of being a plumber now.;counter:100" />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of sugar free drinks" close="~:0;class:character;!class:useless" >
+			<action action="message:1" target="#:close" params="txt:Sorry but I like sugar.;counter:100" />
+			<action action="sound:1" target="index:7" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of sugar free drinks" close="~:0;class:character;class:useless" >
+			<action action="var:1" target="name:books given" params="add:1" />
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="replace:1" target="#:close" params="poolId:sugar free drink" />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:book" close="~:0;class:character;class:useless" var="~:0;books given:==2;achievement 7 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 7 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ librarian." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:bad lottery ticket" close="id:lotoGuy" >
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="message:1" target="#:close" params="txt:Wrong numbers. You've lost.;counter:100" />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:math" close="id:bad lottery ticket" >
+			<action action="replace:1" target="#:close" params="poolId:good lottery ticket" />
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="message:1" target="#:lower" params="txt:You use math to compute the good combination of numbers." />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:bad lottery ticket" close="class:math" >
+			<action action="remove:1" target="#:close" params="#:null" />
+			<action action="replace:1" target="#:carry" params="poolId:good lottery ticket" />
+			<action action="message:1" target="#:lower" params="txt:You use math to compute the good combination of numbers." />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:good lottery ticket" close="id:lotoGuy" >
+			<action action="replace:1" target="#:carry" params="poolId:big money" />
+			<action action="message:1" target="#:close" params="txt:You won. Here is a lot of money.;counter:100" />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:horse" close="id:knight" >
+			<action action="message:1" target="#:close" params="txt:Yes, this is my horse.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:knight" close="id:horse" >
+			<action action="message:1" target="#:close" params="txt:Yes, this is my knight.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:big money" close="class:castle seller" var="achievement 12 done:==0" >
+			<action action="remove:1" target="id:castle door" params="#:null" />
+			<action action="remove:1" target="id:for sale" params="#:null" />
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="moveTo:1" target="#:this" params="pX:400;pY:200;sX:5;sY:1" />
+			<action action="stuck:1" target="sX:7;sY:2" params="up:0" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 12 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ castellan." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:money" close="class:castle seller" >
+			<action action="message:1" target="#:close" params="txt:This is not enough money to buy my castle.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of spiritual enlightment" close="id:dog" >
+			<action action="var:1" target="name:books given" params="add:1" />
+			<action action="remove:1" target="#:close" params="#:null" />
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="replace:1" target="#:this" params="poolId:player dog" />
+			<action action="sound:1" target="index:9" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of spiritual enlightment" close="id:monk" >
+			<action action="message:1" target="#:close" params="txt:I've red this book already, thanks." />
+			<action action="sound:1" target="index:7" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of famous plumbers" close="id:pipe" >
+			<action action="message:1" target="#:lower" params="txt:A pipe does not know how to read." />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:pipe" close="id:plumber" >
+			<action action="message:1" target="#:close" params="txt:This pipe works perfectly.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:book of spiritual enlightment" close="id:dog" var="~:0;books given:==2;achievement 7 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 7 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ librarian." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="id:player" carry="#:any" close="id:monk" >
+			<action action="message:1" target="#:close" params="txt:You don't look wise enough to become a monk.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="id:player dog" carry="#:any" close="id:monk">
+			<action action="message:1" target="#:close" params="txt:You're now a monk.;counter:100" />
+			<action action="replace:1" target="#:this" params="poolId:player monk" />
+			<action action="sound:1" target="index:9" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:sewer cap A2" >
+			<action action="moveTo:1" target="#:this" params="id:sewer cap A1;pY:30" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:sewer cap B1" >
+			<action action="moveTo:1" target="#:this" params="id:sewer cap B2;pY:30" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:sewer cap B2" >
+			<action action="moveTo:1" target="#:this" params="id:sewer cap B1;pY:30" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="~:0;class:player;carried:0" carry="#:any" close="class:car" >
+			<action action="carry:1" target="#:close" params="#:this;cX:0;cY:-50" />
+			<action action="sound:1" target="index:4" params="gain:1;pan:0" />
+		</behaviour>		
+		<behaviour type="trigger:0" obj="~:0;class:player;carried:1" carry="#:any" close="class:car" >
+			<action action="release:1" target="#:close" params="#:unused" />
+			<action action="sound:1" target="index:1" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:null" close="~:0;class:add door;carry:0" >
+			<action action="carry:1" target="#:this" params="#:close;maxPZ:50" />
+			<action action="sound:1" target="index:0" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:door" close="~:0;class:add door;carry:0" var="~:0;doors added:==3;achievement 2 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 2 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ builder." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>				
+		<behaviour type="trigger:0" obj="class:player" carry="class:add door" close="!class:interactive" >
+			<action action="release:1" target="#:this" params="#:unused;maxPZ:0" />
+			<action action="sound:1" target="index:1" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="clock:1" obj="class:player" carry="#:null" close="~:0;class:add door;carryClass:door" >
+			<action action="message:1" target="#:upper" params="txt:#close" />
+		</behaviour>
+		<behaviour type="clock:1" obj="class:player" carry="#:null" close="~:0;class:add door;carry:0" >
+			<action action="message:1" target="#:upper" params="txt:? > #close" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:wrench" close="id:closed sewer cap A1" >
+			<action action="replace:1" target="#:close" params="poolId:sewer cap A1" />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:sewer cap A1" >
+			<action action="moveTo:1" target="#:this" params="id:sewer cap A2;pY:30" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+ 		<behaviour type="trigger:0" obj="class:player" carry="class:door" close="~:0;id:bar;carry:0" >
+			<action action="var:1" target="name:doors added" params="add:1" />
+			<action action="set:1" target="#:carry" params="logic:0" />
+			<action action="give:1" target="#:this" params="pX:0;pY:120;maxPZ:25" />
+			<action action="sound:1" target="index:3" params="gain:1;pan:0" />	
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="~:0;id:bar;carryClass:door" >
+			<action action="moveTo:1" target="#:this" params="id:bar int door;pY:20" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:bar int door" >
+			<action action="moveTo:1" target="#:this" params="id:bar;pY:120" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+ 		<behaviour type="trigger:0" obj="class:player" carry="class:door" close="~:0;id:school;carry:0" >
+			<action action="var:1" target="name:doors added" params="add:1" />
+			<action action="set:1" target="#:carry" params="logic:0" />
+			<action action="give:1" target="#:this" params="pX:0;pY:130;maxPZ:25" />
+			<action action="sound:1" target="index:3" params="gain:1;pan:0" />	
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="~:0;id:school;carryClass:door" >
+			<action action="moveTo:1" target="#:this" params="id:school int door;pY:20" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:school int door" >
+			<action action="moveTo:1" target="#:this" params="id:school;pY:120" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:school door 1" >
+			<action action="moveTo:1" target="#:this" params="id:math int door;pY:20" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:school door 2" >
+			<action action="moveTo:1" target="#:this" params="id:geo int door;pY:20" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:math int door" >
+			<action action="moveTo:1" target="#:this" params="id:school door 1;pY:20" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:geo int door" >
+			<action action="moveTo:1" target="#:this" params="id:school door 2;pY:20" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+ 		<behaviour type="trigger:0" obj="class:player" carry="class:door" close="~:0;id:temple;carry:0" >
+			<action action="var:1" target="name:doors added" params="add:1" />
+			<action action="set:1" target="#:carry" params="logic:0" />
+			<action action="give:1" target="#:this" params="pX:0;pY:180;maxPZ:22" />
+			<action action="sound:1" target="index:3" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="~:0;id:temple;carryClass:door" >
+			<action action="moveTo:1" target="#:this" params="id:temple int door;pY:20" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:temple int door" >
+			<action action="moveTo:1" target="#:this" params="id:temple;pY:170" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+ 		<behaviour type="trigger:0" obj="class:player" carry="class:door" close="~:0;id:house;carry:0" >
+			<action action="var:1" target="name:doors added" params="add:1" />
+			<action action="set:1" target="#:carry" params="logic:0" />
+			<action action="give:1" target="#:this" params="pX:0;pY:90;maxPZ:25" />
+			<action action="sound:1" target="index:3" params="gain:1;pan:0" />	
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="~:0;id:house;carryClass:door" >
+			<action action="moveTo:1" target="#:this" params="sX:3;sY:1;pX:400;pY:350" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:house int door" >
+			<action action="moveTo:1" target="#:this" params="id:house;pY:100" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:door" close="~:0;id:dog house;carry:0" >
+			<action action="var:1" target="name:doors added" params="add:1" />
+			<action action="set:1" target="#:carry" params="logic:0" />
+			<action action="give:1" target="#:this" params="pX:0;pY:90;maxPZ:25" />
+			<action action="sound:1" target="index:3" params="gain:1;pan:0" />	
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="~:0;id:dog house;carryClass:door" >
+			<action action="moveTo:1" target="#:this" params="sX:2;sY:3;pX:600;pY:300" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:dog house int door" >
+			<action action="moveTo:1" target="#:this" params="id:dog house;pY:80" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:null" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Bring me any item and I'll help you.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:goat" >
+			<action action="sound:1" target="index:11" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:Georges" >
+			<action action="message:1" target="#:close" params="txt:How come there is no cable car in this game ?.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:sugar free drink" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Somebody must be thirsty somewhere.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:math" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Dealing with numbers is fun.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:globe" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:This is a small planet.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:umbrella" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:There is no use for this.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:for sale" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Yes, you can buy the castle by giving a lot of money to its owner.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:pipe out" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Find the other end of this pipe and use it to travel faster.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:tree" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Find a hatchet to cut down this tree.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:money" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Use this to buy a lottery ticket.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:door" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Use this door on any building to enter it.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:add door" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Put a door on this to enter it.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:wrench" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:This can be used to go in the sewers.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:hatchet" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Use it to cut down a tree.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:lottery ticket" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Try to find the good numbers and win a lot of money.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:big money" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Use the money to buy the castle.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:book" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:Give this book to who needs it more.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:character" close="id:clue guy" >
+			<action action="message:1" target="#:close" params="txt:This is an individual, leave him alone.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:flute" close="#:something" >
+			<action action="sound:1" target="index:10" params="gain:1;pan:0" />	
+		</behaviour>
+		<behaviour type="trigger:0" obj="~:0;class:player;!id:player monk" carry="#:any" close="id:flute rock" >
+			<action action="message:1" target="#:lower" params="txt:Only a monk can remove this flute from the rock." />
+		</behaviour>
+		<behaviour type="trigger:0" obj="~:0;class:player;id:player monk" carry="#:any" close="id:flute rock" >
+			<action action="replace:1" target="#:close" params="poolId:rock" />
+			<action action="add:1" target="#:close" params="poolId:flute" />
+			<action action="message:1" target="#:lower" params="txt:You remove the flute from the rock." />
+			<action action="sound:1" target="index:0" params="gain:1;pan:0" />	
+		</behaviour>
+		<behaviour type="trigger:0" obj="~:0;class:player;id:player monk" carry="#:any" close="id:flute rock" var="achievement 6 done:==0">
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 6 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ monk." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="id:Robert" >
+			<action action="message:1" target="#:close" params="txt:Seriously, there is no point in putting anybody in a cage.;counter:100" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:character" close="~:0;class:cage;carry:0" >
+			<action action="message:1" target="#:lower" params="txt:You put #carry in the cage." />
+			<action action="set:1" target="#:carry" params="logic:0" />
+			<action action="give:1" target="#:this" params="pX:0;pY:40;maxZ:0" />
+			<action action="sound:1" target="index:3" params="gain:1;pan:0" />	
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:null" close="~:0;class:cage;carry:1" >
+			<action action="take:1" target="#:close" params="pX:0;pY:0;maxZ:40" /> 
+			<action action="set:1" target="#:carry" params="logic:1" />
+			<action action="sound:1" target="index:3" params="gain:1;pan:0" />
+			<action action="message:1" target="#:lower" params="txt:You free #carry from the cage." />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:alien" close="~:0;class:cage;carry:0" var="achievement 9 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 9 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ sci-fi zoo keeper." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:character" close="~:0;class:cage;carry:1" >
+			<action action="message:1" target="#:lower" params="txt:There is already someone in the cage." />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:hatchet" close="~:0;class:character;class:useless" >
+			<action action="var:1" target="name:kills" params="add:1" />
+			<action action="replace:1" target="#:close" params="poolId:corpse" />
+			<action action="sound:1" target="index:6" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:hatchet" close="~:0;class:character;class:useless" var="~:0;kills:==10;achievement 3 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 3 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ killer." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:big money" close="id:fountain" >
+			<action action="message:1" target="#:lower" params="txt:This fountain can't possibly handle that much money." />
+			<action action="sound:1" target="index:7" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:money" close="id:fountain" >
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="add:1" target="#:null" params="poolRndClass:money" />
+			<action action="message:1" target="#:lower" params="txt:You drop money in the fountain." />
+			<action action="sound:1" target="index:2" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="class:money" close="id:fountain" var="achievement 14 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 14 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ wisher." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />		
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:null" close="id:pipe in" >
+			<action action="replace:1" target="id:closed sewer cap A1" params="poolId:sewer cap A1" />
+			<action action="moveTo:1" target="#:this" params="id:pipe out;pY:-20;pX:140" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="~:0;class:carriable;!class:pipe" close="id:pipe in" >
+			<action action="message:1" target="#:lower" params="txt:You put #carry in the pipe." />
+			<action action="moveTo:1" target="#:carry" params="id:pipe out;pY:-20;pX:140" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="sound:1" target="index:1" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:pipe out" close="id:pipe in" var="achievement 4 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 4 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ recursive plumber." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:pipe out" close="id:pipe in" >
+			<action action="moveTo:1" target="#:this" params="sX:4;sY:1;pX:400;pY:300" />
+			<action action="sound:1" target="index:5" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="id:sugar free drink" close="id:customer" var="achievement 10 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 10 done" params="set:1" />
+			<action action="remove:1" target="#:carry" params="#:null" />
+			<action action="release:1" target="#:this" params="#:unused" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ waiter." />
+			<action action="message:1" target="#:close" params="txt:Thank you." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger fail:0" obj="class:player" carry="#:something" close="#:any" >
+			<action action="sound:1" target="index:7" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="trigger fail:0" obj="class:player" carry="id:umbrella" close="#:any" >
+			<action action="var:1" target="name:umbrella tries" params="add:1" />
+		</behaviour>
+		<behaviour type="trigger fail:0" obj="class:player" carry="id:umbrella" close="#:any" var="~:0;umbrella tries:>=10;achievement 8 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 8 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ tried to do something with the umbrella." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="clock:5" obj="class:player" carry="#:null" close="#:any" >
+			<action action="var:1" target="name:idling" params="add:1" />
+		</behaviour>
+		<behaviour type="clock:5" obj="class:player" carry="#:any" close="#:something" >
+			<action action="var:1" target="name:idling" params="set:0" />
+		</behaviour>
+		<behaviour type="trigger:0" obj="class:player" carry="#:any" close="#:any" var="~:0;idling:>=500;achievement 11 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 11 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ unemployed." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="clock:1" obj="class:car" carry="class:player" close="#:any" >
+			<action action="var:1" target="name:drive" params="add:1" />
+		</behaviour>
+		<behaviour type="clock:1" obj="class:player" carry="#:any" var="~:0;drive:==500;achievement 5 done:==0" >
+			<action action="var:1" target="name:achievements" params="add:1" />
+			<action action="var:1" target="name:achievement 5 done" params="set:1" />
+			<action action="message:1" target="#:middle" params="txt:Profession #var$achievements$ / #var$total achievements$ driver." />
+			<action action="sound:1" target="index:8" params="gain:1;pan:0" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going path A" carry="#:any" close="#:any" var="path A:==0" >
+			<action action="var:1" target="name:path A dist" params="add:20" />
+			<action action="move:1" target="#:this" params="pX:20" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going path A" carry="#:any" close="#:any" var="~:0;path A:==0;path A dist:==4000" >
+			<action action="var:1" target="name:path A" params="set:1" />
+			<action action="var:1" target="name:path A dist" params="set:0" />
+			<action action="moveTo:1" target="#:this" params="sX:1;sY:3;pX:400;pY:200" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going path A" carry="#:any" close="#:any" var="path A:==1" >
+			<action action="var:1" target="name:path A dist" params="add:20" />
+			<action action="move:1" target="#:this" params="pY:20" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going path A" carry="#:any" close="#:any" var="~:0;path A:==1;path A dist:==1200" >
+			<action action="var:1" target="name:path A" params="set:2" />
+			<action action="var:1" target="name:path A dist" params="set:0" />
+			<action action="moveTo:1" target="#:this" params="sX:1;sY:5;pX:400;pY:200" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going path A" carry="#:any" close="#:any" var="path A:==2" >
+			<action action="var:1" target="name:path A dist" params="add:20" />
+			<action action="move:1" target="#:this" params="pX:-20" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going path A" carry="#:any" close="#:any" var="~:0;path A:==2;path A dist:==800" >
+			<action action="var:1" target="name:path A" params="set:3" />
+			<action action="var:1" target="name:path A dist" params="set:0" />
+			<action action="moveTo:1" target="#:this" params="sX:0;sY:5;pX:400;pY:200" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going path A" carry="#:any" close="#:any" var="path A:==3" >
+			<action action="var:1" target="name:path A dist" params="add:20" />
+			<action action="move:1" target="#:this" params="pY:20" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going path A" carry="#:any" close="#:any" var="~:0;path A:==3;path A dist:==1200" >
+			<action action="var:1" target="name:path A" params="set:0" />
+			<action action="var:1" target="name:path A dist" params="set:0" />
+			<action action="moveTo:1" target="#:this" params="sX:0;sY:7;pX:400;pY:200" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going right" carry="#:something" close="#:any" >
+			<action action="move:1" target="#:this" params="pX:15" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going right" carry="#:null" close="#:else" >
+			<action action="move:1" target="#:this" params="pX:15" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going left" carry="#:something" close="#:any" >
+			<action action="move:1" target="#:this" params="pX:-20" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:car;class:going left" carry="#:null" close="#:else" >
+			<action action="move:1" target="#:this" params="pX:-20" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:character;class:moving;carried:0" carry="#:any" close="#:any" >
+			<action action="move:1" target="#:this" params="#:self" />
+		</behaviour>
+		<behaviour type="clock:50" obj="~:0;class:character;class:random walk" carry="#:any" close="#:any" >
+			<action action="direct:1" target="#:this" params="rndAngle:360;speed:5" />
+		</behaviour>
+		<behaviour type="clock:50" obj="~:0;class:character;class:dog walk" carry="#:any" close="#:any" >
+			<action action="direct:1" target="#:this" params="follow:player;speed:3;rndSpeed:3" />
+		</behaviour>
+		<behaviour type="clock:100" obj="~:0;class:character;class:bird walk" carry="#:any" close="#:any" >
+			<action action="direct:1" target="#:this" params="rndAngle:360;speed:15" />
+		</behaviour>
+		<behaviour type="clock:1" obj="~:0;class:character;class:bird walk;stucked:1" carry="#:any" close="#:any" >
+			<action action="direct:1" target="#:this" params="keepAngle:1;keepSpeed:1;angle:150" />
+			<action action="set:1" target="#:this" params="stucked:0" />
+		</behaviour>
+		<behaviour type="clock:150" obj="~:0;class:character;class:alligator walk" carry="#:any" close="#:any" >
+			<action action="direct:1" target="#:this" params="rndAngle:360;speed:1;rndSpeed:2" />
+		</behaviour>
+		<behaviour type="clock:50" obj="~:0;class:character;class:clue walk" carry="#:any" close="#:any" >
+			<action action="direct:1" target="#:this" params="rndAngle:360;speed:3;rndSpeed:1" />
+		</behaviour>
+		<behaviour type="init:0" obj="#:unused" carry="#:unused" close="#:unused" >
+			<action action="fill:15" target="sX:4;sY:5;sXL:4;sYL:3" params="poolRndClass:grass" />
+		</behaviour>
+		<behaviour type="init:0" obj="#:unused" carry="#:unused" close="#:unused" >
+			<action action="fill:8" target="sX:4;sY:5;sXL:4;sYL:3" params="poolRndClass:tree" />
+		</behaviour>
+		<behaviour type="init:0" obj="#:unused" carry="#:unused" close="#:unused" >
+			<action action="var:1" target="name:total achievements" params="set:14" />
+		</behaviour>
+	</behaviours>
+</settings>
